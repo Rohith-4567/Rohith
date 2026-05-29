@@ -5116,7 +5116,7 @@
 		(dnp no)
 		(uuid "299304c3-92da-4730-bfba-f578f5b3679c")
 		(property "Reference" "R18"
-			(at 101.092 90.678 0)
+			(at 99.822 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
