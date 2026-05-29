@@ -429,13 +429,21 @@
         "uuid": "02ec46d8-9fff-42fd-88ff-c4cb11c6dc1b"
       }
     ],
-    "used_designators": "U3-4,J1,R5-15,L1,#PWR5-6,#PWR9-28,D1-5,C2-7,SW1",
+    "used_designators": "L2,D6-10,#PWR9-10,#PWR29-56,C2,C8-12,R5,R16-28,J1-3,SW2,U2,U5-7",
     "variants": []
   },
   "sheets": [
     [
       "02ec46d8-9fff-42fd-88ff-c4cb11c6dc1b",
       "MiteOut_Rohith's_version"
+    ],
+    [
+      "f89d5347-0474-44c8-a6fc-e105b4f84e58",
+      "Charging + Current measure"
+    ],
+    [
+      "a508c7ec-1081-4c85-a21a-4ddedc4b9f85",
+      "SD_Card"
     ]
   ],
   "text_variables": {},
