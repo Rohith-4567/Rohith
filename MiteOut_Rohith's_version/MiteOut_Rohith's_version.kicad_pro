@@ -429,7 +429,7 @@
         "uuid": "02ec46d8-9fff-42fd-88ff-c4cb11c6dc1b"
       }
     ],
-    "used_designators": "U3-4,U8-10,D1,#PWR1-8,R1,J1,C1,C3",
+    "used_designators": "U11-14,Q1,J3-4,R2-4,R6-10,R29-36,C3-7,C13,C18-23,L1,#PWR11-30,#PWR57-60,SW1,SW3-4,D4,D11",
     "variants": []
   },
   "sheets": [
@@ -444,6 +444,10 @@
     [
       "a508c7ec-1081-4c85-a21a-4ddedc4b9f85",
       "SD_Card"
+    ],
+    [
+      "0c1926be-fc30-442e-a123-dd1ed96f81be",
+      "ADC"
     ]
   ],
   "text_variables": {},
