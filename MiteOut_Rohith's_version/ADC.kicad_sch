@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "c1a8245d-8090-428d-8a1c-2c6648db4f21")
+	(uuid "a5b542b3-e505-4272-9946-a66dbb9fca00")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Analog_ADC:HX711"
