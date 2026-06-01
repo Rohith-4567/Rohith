@@ -2722,77 +2722,38 @@
 		)
 		(uuid "fced2292-23c5-4d61-b31b-92ce55606611")
 	)
-	(global_label "DataOut"
-		(shape input)
-		(at 175.26 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1534d866-92fa-4289-9d26-186b9ec6b513")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.7441 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCLK"
-		(shape input)
-		(at 175.26 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d0d17b2-04a6-4399-9360-8f5f5cd47ae3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0228 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RATE"
+	(hierarchical_label "Rate"
 		(shape input)
 		(at 168.91 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "45385012-3bf8-467b-810e-218ad1742552")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.3704 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "47bf0ff4-1f95-47dd-b9b0-e65613f62c8f")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 175.26 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "8c7d141f-8cc0-466b-8652-9ada54272159")
+	)
+	(hierarchical_label "DataOut"
+		(shape input)
+		(at 175.26 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a87f0e8b-b0a9-440f-a38f-e539c8e4cb11")
 	)
 	(symbol
 		(lib_id "power:GND")

@@ -3912,101 +3912,49 @@
 		)
 		(uuid "b80fa06e-6f45-4b05-907a-ab2c3032f7ba")
 	)
-	(global_label "VIN{slash}Solar+"
-		(shape input)
-		(at 86.36 41.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27d1d59e-134f-435d-9a43-487c9698ffb2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 28.0391 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ESP_SCL"
-		(shape input)
-		(at 199.39 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3240eafb-ba1e-4651-b3c3-dda4c6c921b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.4789 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ESP_SDA"
+	(hierarchical_label "SDA"
 		(shape input)
 		(at 199.39 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "795d0dde-1694-49b7-84d9-7452085d27ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5394 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1d4773a5-8b0b-4fe2-bad0-5bdb8e257346")
 	)
-	(global_label "VBUS"
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 199.39 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3624da95-9ee3-4380-a66f-3942fc3a8f2a")
+	)
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 100.33 41.91 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ba897048-91dd-4d94-bb6f-3a039927b755")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 34.0262 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "97a2184d-972f-4384-afc9-fafa18a5a17b")
+	)
+	(hierarchical_label "VIN{slash}Solar+"
+		(shape input)
+		(at 86.36 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "a85bde5c-2c26-488d-a537-21b37c115978")
 	)
 	(symbol
 		(lib_id "power:GND")
