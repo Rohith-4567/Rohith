@@ -2277,6 +2277,10 @@
 		(uuid "cdd1d7a6-ab24-4924-8af4-8c9b66713b69")
 	)
 	(no_connect
+		(at 100.33 121.92)
+		(uuid "48166931-fe72-4c12-bb4b-4a1bcf67b1c4")
+	)
+	(no_connect
 		(at 111.76 76.2)
 		(uuid "827e21b9-9a43-4524-938c-74f6a23033a6")
 	)
@@ -2287,6 +2291,10 @@
 	(no_connect
 		(at 162.56 124.46)
 		(uuid "ab47bae9-17f6-4de2-a2ac-e63d598a42f4")
+	)
+	(no_connect
+		(at 128.27 121.92)
+		(uuid "b65da6d5-fcab-417c-9d9a-47886508a985")
 	)
 	(wire
 		(pts
@@ -2380,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 102.87) (xy 82.55 102.87)
+			(xy 106.68 102.87) (xy 81.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 78.74) (xy 86.36 78.74)
+			(xy 81.28 78.74) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 86.36 93.98)
+			(xy 81.28 93.98) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2668,7 @@
 	)
 	(hierarchical_label "DataIn"
 		(shape input)
-		(at 80.01 78.74 180)
+		(at 81.28 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,7 +2690,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 83.82 93.98 180)
+		(at 81.28 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2693,7 +2701,7 @@
 	)
 	(hierarchical_label "DataOut"
 		(shape input)
-		(at 82.55 102.87 180)
+		(at 81.28 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
