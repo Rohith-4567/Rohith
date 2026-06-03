@@ -1970,6 +1970,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "no screw terminal JST/Micro JST"
+		(exclude_from_sim no)
+		(at 80.518 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ce4fdca-df40-4272-b3bd-ce860bc87580")
+	)
+	(text "possibly 2 for mic or loadcell+mic on single board\n"
+		(exclude_from_sim no)
+		(at 229.362 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c12f4c7-320a-440f-94cf-446cff30e300")
+	)
 	(junction
 		(at 132.08 119.38)
 		(diameter 0)
@@ -1981,6 +2001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07f71336-f721-4e44-b55d-8afb13b43494")
+	)
+	(junction
+		(at 157.48 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366d141d-f40f-41f9-947d-3d8fa7802893")
 	)
 	(junction
 		(at 168.91 110.49)
@@ -2029,12 +2055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e16de2d6-a599-45d7-b342-b675d03d3d8f")
-	)
-	(junction
-		(at 157.48 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6576e5f-b3ce-455f-8e3d-36d9877225cf")
 	)
 	(junction
 		(at 129.54 101.6)
@@ -2734,6 +2754,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 68.58) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c29e96-e73d-4876-881a-b44c30bb78f3")
+	)
+	(wire
+		(pts
 			(xy 137.16 87.63) (xy 142.24 87.63)
 		)
 		(stroke
@@ -2742,26 +2772,26 @@
 		)
 		(uuid "fb9aefc1-80dc-4440-9846-c5b444d20b15")
 	)
-	(wire
-		(pts
-			(xy 157.48 72.39) (xy 157.48 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fced2292-23c5-4d61-b31b-92ce55606611")
-	)
-	(hierarchical_label "Rate"
-		(shape input)
+	(label "rate"
 		(at 168.91 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb74ae5e-6509-48a1-b6e3-f0ea6f7d6c29")
+	)
+	(hierarchical_label "VDDIO"
+		(shape input)
+		(at 157.48 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "47bf0ff4-1f95-47dd-b9b0-e65613f62c8f")
+		(uuid "2c22e295-5842-4fdb-9ca5-58711a075961")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -3378,84 +3408,6 @@
 			(project "MiteOut_Rohith's_version"
 				(path "/02ec46d8-9fff-42fd-88ff-c4cb11c6dc1b/0c1926be-fc30-442e-a123-dd1ed96f81be"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 157.48 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a9a4d4d-7c2a-4562-9ac5-e1c60c017811")
-		(property "Reference" "#PWR016"
-			(at 157.48 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDDIO"
-			(at 157.48 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4227dfe-c15f-4931-91fb-088c2b9152e2")
-		)
-		(instances
-			(project "MiteOut_Rohith's_version"
-				(path "/02ec46d8-9fff-42fd-88ff-c4cb11c6dc1b/0c1926be-fc30-442e-a123-dd1ed96f81be"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
